@@ -76,13 +76,15 @@ VALUES ('Admin', 'User', 'admin@zerobank.com', '9999999999', '240be518fabd2724dd
 
 ```Bash
 git clone [https://github.com/akshay6721/Banking-Application.git](https://github.com/akshay6721/Banking-Application.git)
-Open the project in VS Code, Eclipse, or IntelliJ.```
+Open the project in VS Code, Eclipse, or IntelliJ.
+```
 
-Add the JDBC Driver:
-
+```Add the JDBC Driver:
 Download mysql-connector-j-8.x.x.jar.
+```
 
 Add it to your projects Referenced Libraries or Dependencies.
+
 
 ### Step 3: Configure Credentials
 
@@ -93,7 +95,8 @@ class BankDatabase {
     static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db"; 
     static final String USER = "root"; 
     static final String PASS = "YOUR_MYSQL_PASSWORD_HERE"; // <--- Update this
-}```
+}
+```
 
 ## 📸 Usage Guide
 Run the Application: Execute the BankUserManualMP.java file.
