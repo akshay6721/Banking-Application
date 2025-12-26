@@ -70,31 +70,32 @@ INSERT INTO users (first_name, last_name, email, mobile, password_hash, balance,
 VALUES ('Admin', 'User', 'admin@zerobank.com', '9999999999', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 50000, 'Metropolis', '100001');
 
 
-Step 2: Java Project Setup
+### Step 2: Java Project Setup
 
 Clone the repository:
 
-Bash
+```Bash
 git clone [https://github.com/akshay6721/Banking-Application.git](https://github.com/akshay6721/Banking-Application.git)
-Open the project in VS Code, Eclipse, or IntelliJ.
+Open the project in VS Code, Eclipse, or IntelliJ.```
 
 Add the JDBC Driver:
 
 Download mysql-connector-j-8.x.x.jar.
 
-Add it to your project's Referenced Libraries or Dependencies.
+Add it to your projects Referenced Libraries or Dependencies.
 
-Step 3: Configure Credentials
+### Step 3: Configure Credentials
 
 Open BankUserManualMP.java and find the BankDatabase class. Update the PASS variable with your local MySQL password:
 
-Java
+```Java
 class BankDatabase {
     static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db"; 
     static final String USER = "root"; 
     static final String PASS = "YOUR_MYSQL_PASSWORD_HERE"; // <--- Update this
-}
-📸 Usage Guide
+}```
+
+## 📸 Usage Guide
 Run the Application: Execute the BankUserManualMP.java file.
 
 Login: Use the pre-configured Admin account:
@@ -107,8 +108,8 @@ Register: Click "New User" to create a fresh account. The system will auto-gener
 
 Transact: Deposit or Withdraw funds and check your balance securely.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
 
-👤 Author
+## 👤 Author
 Akshay - Java Developer & Tech Enthusiast
