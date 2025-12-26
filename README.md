@@ -68,11 +68,11 @@ CREATE TABLE IF NOT EXISTS users (
 -- Insert Default Admin Account (Password: admin123)
 INSERT INTO users (first_name, last_name, email, mobile, password_hash, balance, city, pin) 
 VALUES ('Admin', 'User', 'admin@zerobank.com', '9999999999', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 50000, 'Metropolis', '100001');
-
+```
 
 ### Step 2: Java Project Setup
 
-Clone the repository:
+--Clone the repository:
 
 ```Bash
 git clone [https://github.com/akshay6721/Banking-Application.git](https://github.com/akshay6721/Banking-Application.git)
